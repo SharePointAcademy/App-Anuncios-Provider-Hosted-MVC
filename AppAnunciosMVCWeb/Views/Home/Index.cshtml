@@ -1,0 +1,20 @@
+﻿@model List<AppAnunciosMVCWeb.Models.Veiculo>
+@{
+    ViewBag.Title = "Home Page";
+    var spUrl = Request.QueryString["SPHostUrl"];
+}
+
+<h2>Veiculos</h2>
+<ul>
+    @foreach (var veiculo in Model)
+    {
+
+        <li style="list-style:none;padding-top:20px">
+            <a href="@Url.Action("Detail", new { SPHostUrl = spUrl, id = veiculo.ID })">
+                <img src="@veiculo.Foto" width="300" />
+            </a>
+            <br />
+            <label>@veiculo.Titulo</label>
+        </li>
+    }
+</ul>

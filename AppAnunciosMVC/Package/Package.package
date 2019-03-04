@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="bfd56339-1c9b-4ae6-9b4a-fc93192eb786" solutionId="bfd56339-1c9b-4ae6-9b4a-fc93192eb786" resetWebServer="false" sharePointProductVersion="15.0" name="AppAnunciosMVC" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c5ca3daf-16fa-4212-8cca-bcc73781ff2d" />
+  </features>
+</package>
